@@ -1,0 +1,5 @@
+com\qinjun\autotest\tstest\base\BaseSuite.class
+com\qinjun\autotest\tstest\base\UrlFactory.class
+com\qinjun\autotest\tstest\cases\DemoCase.class
+com\qinjun\autotest\tstest\base\BaseCase.class
+com\qinjun\autotest\tstest\base\TestFactory.class

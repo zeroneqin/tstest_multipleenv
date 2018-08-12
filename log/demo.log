@@ -1,0 +1,45 @@
+[2018-08-12 14:55:01] [INFO] [main] [com.qinjun.autotest.tstest.base.TestFactory:23] Target ip list string:null
+[2018-08-12 14:55:09] [INFO] [main] [com.qinjun.autotest.tstest.base.TestFactory:23] Target ip list string:null
+[2018-08-12 14:57:18] [INFO] [main] [com.qinjun.autotest.tstest.base.TestFactory:23] Target ip list string:null
+[2018-08-12 14:58:04] [INFO] [main] [com.qinjun.autotest.tstest.base.TestFactory:23] Target ip list string:127.0.0.1,localhost
+[2018-08-12 14:58:04] [INFO] [main] [com.qinjun.autotest.tstest.base.TestFactory:14] Target env ip:127.0.0.1
+[2018-08-12 14:58:04] [INFO] [main] [com.qinjun.autotest.tstest.base.TestFactory:14] Target env ip:localhost
+[2018-08-12 14:58:04] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseSuite:16] ==========[Start Suite]==========
+[2018-08-12 14:58:04] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:27] ==========[Start Class]==========
+[2018-08-12 14:58:04] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:40] ==========[Start Case]==========
+[2018-08-12 14:58:04] [INFO] [main] [com.qinjun.autotest.tstest.so.DemoSO:25] Request param, name:TestName
+[2018-08-12 14:58:04] [INFO] [main] [com.qinjun.autotest.tstest.so.DemoSO:29] full url:http://null/posts/1
+[2018-08-12 14:58:05] [INFO] [main] [com.qinjun.autotest.tstest.util.HttpUtil:50] Send request:GET http://null/posts/1?name=TestName HTTP/1.1
+[2018-08-12 14:58:08] [ERROR] [main] [com.qinjun.autotest.tstest.util.HttpUtil:74] Get exception when send the http request:java.net.UnknownHostException: null
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:46] ==========[End Case]==========
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:35] ==========[End Class]==========
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:27] ==========[Start Class]==========
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:40] ==========[Start Case]==========
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.so.DemoSO:25] Request param, name:TestName
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.so.DemoSO:29] full url:http://null/posts/1
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.util.HttpUtil:50] Send request:GET http://null/posts/1?name=TestName HTTP/1.1
+[2018-08-12 14:58:08] [ERROR] [main] [com.qinjun.autotest.tstest.util.HttpUtil:74] Get exception when send the http request:java.net.UnknownHostException: null
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:46] ==========[End Case]==========
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:35] ==========[End Class]==========
+[2018-08-12 14:58:08] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseSuite:21] ==========[End Suite]==========
+[2018-08-12 15:02:31] [INFO] [main] [com.qinjun.autotest.tstest.base.TestFactory:22] Target ip list string:127.0.0.1,localhost
+[2018-08-12 15:02:31] [INFO] [main] [com.qinjun.autotest.tstest.base.TestFactory:14] Target env ip:127.0.0.1
+[2018-08-12 15:02:31] [INFO] [main] [com.qinjun.autotest.tstest.base.TestFactory:14] Target env ip:localhost
+[2018-08-12 15:02:31] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseSuite:16] ==========[Start Suite]==========
+[2018-08-12 15:02:31] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:27] ==========[Start Class]==========
+[2018-08-12 15:02:31] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:40] ==========[Start Case]==========
+[2018-08-12 15:02:31] [INFO] [main] [com.qinjun.autotest.tstest.so.DemoSO:25] Request param, name:TestName
+[2018-08-12 15:02:31] [INFO] [main] [com.qinjun.autotest.tstest.so.DemoSO:29] full url:http://localhost/posts/1
+[2018-08-12 15:02:32] [INFO] [main] [com.qinjun.autotest.tstest.util.HttpUtil:50] Send request:GET http://localhost/posts/1?name=TestName HTTP/1.1
+[2018-08-12 15:02:34] [ERROR] [main] [com.qinjun.autotest.tstest.util.HttpUtil:74] Get exception when send the http request:org.apache.http.conn.HttpHostConnectException: Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+[2018-08-12 15:02:34] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:46] ==========[End Case]==========
+[2018-08-12 15:02:34] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:35] ==========[End Class]==========
+[2018-08-12 15:02:34] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:27] ==========[Start Class]==========
+[2018-08-12 15:02:34] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:40] ==========[Start Case]==========
+[2018-08-12 15:02:34] [INFO] [main] [com.qinjun.autotest.tstest.so.DemoSO:25] Request param, name:TestName
+[2018-08-12 15:02:34] [INFO] [main] [com.qinjun.autotest.tstest.so.DemoSO:29] full url:http://127.0.0.1/posts/1
+[2018-08-12 15:02:34] [INFO] [main] [com.qinjun.autotest.tstest.util.HttpUtil:50] Send request:GET http://127.0.0.1/posts/1?name=TestName HTTP/1.1
+[2018-08-12 15:02:35] [ERROR] [main] [com.qinjun.autotest.tstest.util.HttpUtil:74] Get exception when send the http request:org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:80 [/127.0.0.1] failed: Connection refused: connect
+[2018-08-12 15:02:35] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:46] ==========[End Case]==========
+[2018-08-12 15:02:35] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseCase:35] ==========[End Class]==========
+[2018-08-12 15:02:35] [INFO] [main] [com.qinjun.autotest.tstest.base.BaseSuite:21] ==========[End Suite]==========

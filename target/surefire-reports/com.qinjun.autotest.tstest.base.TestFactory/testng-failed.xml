@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.qinjun.autotest.tstest.base.TestFactory]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.qinjun.autotest.tstest.base.TestFactory"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qinjun.autotest.tstest.cases.DemoCase">
+        <methods>
+          <include name="test"/>
+          <include name="test"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="cleanup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qinjun.autotest.tstest.cases.DemoCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.qinjun.autotest.tstest.base.TestFactory] -->

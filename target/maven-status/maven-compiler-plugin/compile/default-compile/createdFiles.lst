@@ -1,0 +1,6 @@
+com\qinjun\autotest\tstest\po\req\DemoReq.class
+com\qinjun\autotest\tstest\po\res\DemoRes.class
+com\qinjun\autotest\tstest\so\DemoSO.class
+com\qinjun\autotest\tstest\util\HttpUtil.class
+com\qinjun\autotest\tstest\util\HttpResponse.class
+com\qinjun\autotest\tstest\vo\DemoVO.class

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.qinjun.autotest.tstest.base.TestFactory
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.418 sec <<< FAILURE!
+test(com.qinjun.autotest.tstest.cases.DemoCase)  Time elapsed: 2.678 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qinjun.autotest.tstest.so.DemoSO.sendRequest(DemoSO.java:38)
+	at com.qinjun.autotest.tstest.cases.DemoCase.test(DemoCase.java:25)
+
+test(com.qinjun.autotest.tstest.cases.DemoCase)  Time elapsed: 0.997 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qinjun.autotest.tstest.so.DemoSO.sendRequest(DemoSO.java:38)
+	at com.qinjun.autotest.tstest.cases.DemoCase.test(DemoCase.java:25)
+
